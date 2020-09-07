@@ -1,2 +1,2 @@
-# rv-azc
-Recorrido Virtual del CCH Azcapotzalco con vvvv.js
+# faro-azc
+Recorrido Virtual de la FARO Azcapotzalco con vvvv.js
