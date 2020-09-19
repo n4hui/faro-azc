@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="20235" height="17265">
+  <BOUNDS type="Window" width="14625" height="17265">
   </BOUNDS>
   <NODE id="5" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
   <BOUNDS type="Node" left="2775" top="3270" width="100" height="100">
@@ -368,32 +368,6 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="27" nodename="Renderer (EX9)" systemname="Renderer (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3135" top="7215" width="100" height="100">
-  </BOUNDS>
-  <PIN pinname="Layers" visible="1">
-  </PIN>
-  <PIN pinname="Clear" visible="1">
-  </PIN>
-  <PIN pinname="Antialiasing" visible="1">
-  </PIN>
-  <PIN pinname="Background Color" visible="1">
-  </PIN>
-  <PIN pinname="Backbuffer Width" visible="1" values="|1080|">
-  </PIN>
-  <PIN pinname="Backbuffer Height" visible="1" values="|720|">
-  </PIN>
-  <PIN pinname="Parent Element" visible="1">
-  </PIN>
-  <PIN pinname="View" visible="1">
-  </PIN>
-  <PIN pinname="Projection" visible="1">
-  </PIN>
-  <PIN pinname="Windowed Depthbuffer Format" visible="0" values="|DX16|">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
-  </PIN>
-  </NODE>
   <NODE id="28" nodename="Group (EX9)" systemname="Group (EX9)" componentmode="Hidden">
   <BOUNDS type="Node" left="3690" top="6075" width="100" height="100">
   </BOUNDS>
@@ -412,18 +386,12 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
-  <NODE id="29" nodename="Perspective (Transform)" systemname="Perspective (Transform)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5055" top="6690" width="100" height="100">
+  <NODE id="32" nodename="IOBox (Node)" systemname="IOBox (Node)" componentmode="InABox">
+  <BOUNDS type="Box" left="3675" top="6645" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Transform In" visible="1">
+  <PIN pinname="Input Node" visible="1">
   </PIN>
-  <PIN pinname="FOV" visible="1">
-  </PIN>
-  <PIN pinname="Near Plane" visible="1">
-  </PIN>
-  <PIN pinname="Far Plane" visible="1">
-  </PIN>
-  <PIN pinname="Descriptive Name" visible="0" values="||">
+  <PIN pinname="Descriptive Name" visible="0" values="|layer|">
   </PIN>
   </NODE>
   <LINK srcnodeid="5" srcpinname="Mesh" dstnodeid="6" dstpinname="Mesh">
@@ -486,12 +454,10 @@
   </LINK>
   <LINK srcnodeid="6" srcpinname="Layer" dstnodeid="28" dstpinname="Layer 2">
   </LINK>
-  <LINK srcnodeid="28" srcpinname="Layer" dstnodeid="27" dstpinname="Layers">
-  </LINK>
   <LINK srcnodeid="13" srcpinname="Layer" dstnodeid="28" dstpinname="Layer 3">
   </LINK>
   <LINK srcnodeid="24" srcpinname="Layer" dstnodeid="28" dstpinname="Layer 4">
   </LINK>
-  <LINK srcnodeid="29" srcpinname="Transform Out" dstnodeid="27" dstpinname="Projection">
+  <LINK srcnodeid="28" srcpinname="Layer" dstnodeid="32" dstpinname="Input Node">
   </LINK>
   </PATCH>
