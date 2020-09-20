@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="14130" height="17265">
+  <BOUNDS type="Window" width="13635" height="17265">
   </BOUNDS>
   <NODE id="5" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
   <BOUNDS type="Node" left="2775" top="3270" width="100" height="100">
@@ -43,7 +43,7 @@
   </BOUNDS>
   <PIN pinname="Hue" visible="1" values="|0.13|">
   </PIN>
-  <PIN pinname="Saturation" visible="1" values="|1|">
+  <PIN pinname="Saturation" visible="1" values="|0.8|">
   </PIN>
   <PIN pinname="Value" visible="1" values="|0.5|">
   </PIN>
@@ -285,9 +285,9 @@
   <NODE id="22" nodename="Cons (Spreads)" systemname="Cons (Spreads)" componentmode="Hidden">
   <BOUNDS type="Node" left="3600" top="3270" width="100" height="100">
   </BOUNDS>
-  <PIN pinname="Input 1" visible="1" values="|0|">
+  <PIN pinname="Input 1" visible="1" values="|-0.12999999999999992|">
   </PIN>
-  <PIN pinname="Input 2" visible="1" values="|-0.6|">
+  <PIN pinname="Input 2" visible="1" values="|0.15999999999999992|">
   </PIN>
   <PIN pinname="Input 3" visible="1">
   </PIN>
@@ -394,8 +394,20 @@
   <PIN pinname="Descriptive Name" visible="0" values="|layer|">
   </PIN>
   </NODE>
-  <NODE id="33" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="4800" top="2340" width="0" height="0">
+  <NODE id="34" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4680" top="2520" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="35" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="5220" top="1845" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -404,11 +416,19 @@
   <PIN pinname="Descriptive Name" visible="0" values="|light|">
   </PIN>
   </NODE>
+  <NODE id="36" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="4890" top="1395" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1" values="|0.9700000000000006|">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="5" srcpinname="Mesh" dstnodeid="6" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="12" srcpinname="Transform Out" dstnodeid="6" dstpinname="Transform">
-  </LINK>
-  <LINK srcnodeid="22" srcpinname="Output" dstnodeid="6" dstpinname="Light Direction XYZ">
   </LINK>
   <LINK srcnodeid="7" srcpinname="Output" dstnodeid="6" dstpinname="Ambient Color">
   </LINK>
@@ -470,6 +490,12 @@
   </LINK>
   <LINK srcnodeid="28" srcpinname="Layer" dstnodeid="32" dstpinname="Input Node">
   </LINK>
-  <LINK srcnodeid="33" srcpinname="Y Output Value" dstnodeid="22" dstpinname="Input 3">
+  <LINK srcnodeid="35" srcpinname="Y Output Value" dstnodeid="34" dstpinname="Input 2">
+  </LINK>
+  <LINK srcnodeid="22" srcpinname="Output" dstnodeid="6" dstpinname="Light Direction XYZ">
+  </LINK>
+  <LINK srcnodeid="36" srcpinname="Y Output Value" dstnodeid="34" dstpinname="Input 1">
+  </LINK>
+  <LINK srcnodeid="34" srcpinname="Output" dstnodeid="22" dstpinname="Input 3">
   </LINK>
   </PATCH>
