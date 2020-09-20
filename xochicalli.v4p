@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="14625" height="17265">
+  <BOUNDS type="Window" width="14130" height="17265">
   </BOUNDS>
   <NODE id="5" nodename="Box (EX9.Geometry)" systemname="Box (EX9.Geometry)" componentmode="Hidden">
   <BOUNDS type="Node" left="2775" top="3270" width="100" height="100">
@@ -289,7 +289,7 @@
   </PIN>
   <PIN pinname="Input 2" visible="1" values="|-0.6|">
   </PIN>
-  <PIN pinname="Input 3" visible="1" values="|0|">
+  <PIN pinname="Input 3" visible="1">
   </PIN>
   <PIN pinname="Input Count" visible="0" values="|3|">
   </PIN>
@@ -394,6 +394,16 @@
   <PIN pinname="Descriptive Name" visible="0" values="|layer|">
   </PIN>
   </NODE>
+  <NODE id="33" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="4800" top="2340" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="|light|">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="5" srcpinname="Mesh" dstnodeid="6" dstpinname="Mesh">
   </LINK>
   <LINK srcnodeid="12" srcpinname="Transform Out" dstnodeid="6" dstpinname="Transform">
@@ -459,5 +469,7 @@
   <LINK srcnodeid="24" srcpinname="Layer" dstnodeid="28" dstpinname="Layer 4">
   </LINK>
   <LINK srcnodeid="28" srcpinname="Layer" dstnodeid="32" dstpinname="Input Node">
+  </LINK>
+  <LINK srcnodeid="33" srcpinname="Y Output Value" dstnodeid="22" dstpinname="Input 3">
   </LINK>
   </PATCH>
