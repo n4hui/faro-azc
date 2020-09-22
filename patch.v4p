@@ -1,6 +1,6 @@
 <!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
   <PATCH>
-  <BOUNDS type="Window" width="18210" height="17265">
+  <BOUNDS type="Window" width="20235" height="17265">
   </BOUNDS>
   <NODE id="5" nodename="nav.v4p" systemname="nav" filename="nav.v4p" componentmode="Hidden">
   <BOUNDS type="Node" left="8790" top="5250" width="100" height="100">
@@ -13,11 +13,15 @@
   </BOUNDS>
   <PIN pinname="lz" visible="1">
   </PIN>
+  <PIN pinname="ly" visible="1" values="|-5|">
+  </PIN>
+  <PIN pinname="lx" visible="1" values="|0|">
+  </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
   <NODE id="17" nodename="Renderer (EX9)" systemname="Renderer (EX9)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6555" top="7950" width="100" height="100">
+  <BOUNDS type="Node" left="6645" top="8850" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Layers" visible="1">
   </PIN>
@@ -25,7 +29,7 @@
   </PIN>
   <PIN pinname="Antialiasing" visible="1">
   </PIN>
-  <PIN pinname="Background Color" visible="1">
+  <PIN pinname="Background Color" visible="1" values="|0.5540000200271606, 0.7966240048408508, 1, 1|">
   </PIN>
   <PIN pinname="Backbuffer Width" visible="1">
   </PIN>
@@ -170,6 +174,18 @@
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
   </NODE>
+  <NODE id="28" nodename="Subtract (Value)" systemname="Subtract (Value)" componentmode="Hidden">
+  <BOUNDS type="Node" left="6030" top="6570" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input 1" visible="1">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|5|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
   <LINK srcnodeid="16" srcpinname="layer" dstnodeid="17" dstpinname="Layers">
   </LINK>
   <LINK srcnodeid="18" srcpinname="ResolutionXY" dstnodeid="19" dstpinname="Input">
@@ -195,5 +211,9 @@
   <LINK srcnodeid="27" srcpinname="Output" dstnodeid="25" dstpinname="X">
   </LINK>
   <LINK srcnodeid="26" srcpinname="Output" dstnodeid="25" dstpinname="Z">
+  </LINK>
+  <LINK srcnodeid="28" srcpinname="Output" dstnodeid="16" dstpinname="lz">
+  </LINK>
+  <LINK srcnodeid="26" srcpinname="Output" dstnodeid="28" dstpinname="Input 1">
   </LINK>
   </PATCH>
