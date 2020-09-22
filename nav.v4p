@@ -1,6 +1,9 @@
-<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" ><PATCH>
+<!DOCTYPE PATCH  SYSTEM "http://vvvv.org/versions/vvvv45beta28.1.dtd" >
+  <PATCH>
+  <BOUNDS type="Window" width="20235" height="11175">
+  </BOUNDS>
   <NODE id="5" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="630" top="3105" width="100" height="100">
+  <BOUNDS type="Node" left="615" top="4335" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -12,7 +15,7 @@
   </PIN>
   </NODE>
   <NODE id="6" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="975" top="3570" width="100" height="100">
+  <BOUNDS type="Node" left="960" top="4800" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -24,7 +27,7 @@
   </PIN>
   </NODE>
   <NODE id="7" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3075" top="3030" width="100" height="100">
+  <BOUNDS type="Node" left="3060" top="4260" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -36,7 +39,7 @@
   </PIN>
   </NODE>
   <NODE id="8" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3420" top="3495" width="100" height="100">
+  <BOUNDS type="Node" left="3405" top="4725" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -48,7 +51,7 @@
   </PIN>
   </NODE>
   <NODE id="9" nodename="OnMouseOver (HTML)" systemname="OnMouseOver (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="660" top="4725" width="100" height="100">
+  <BOUNDS type="Node" left="915" top="6030" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -58,7 +61,7 @@
   </PIN>
   </NODE>
   <NODE id="10" nodename="OnMouseLeave (HTML)" systemname="OnMouseLeave (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1275" top="5175" width="100" height="100">
+  <BOUNDS type="Node" left="1530" top="6480" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -68,7 +71,7 @@
   </PIN>
   </NODE>
   <NODE id="11" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1125" top="6375" width="100" height="100">
+  <BOUNDS type="Node" left="1380" top="7680" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -78,7 +81,7 @@
   </PIN>
   </NODE>
   <NODE id="12" nodename="OR (Boolean)" systemname="OR (Boolean)" componentmode="Hidden">
-  <BOUNDS type="Node" left="690" top="5730" width="100" height="100">
+  <BOUNDS type="Node" left="945" top="7035" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -90,7 +93,7 @@
   </PIN>
   </NODE>
   <NODE id="13" nodename="Image (HTML)" systemname="Image (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="585" top="4140" width="100" height="100">
+  <BOUNDS type="Node" left="840" top="5445" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -108,7 +111,7 @@
   </PIN>
   </NODE>
   <NODE id="14" nodename="Image (HTML)" systemname="Image (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2970" top="4050" width="100" height="100">
+  <BOUNDS type="Node" left="3225" top="5355" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -126,7 +129,7 @@
   </PIN>
   </NODE>
   <NODE id="15" nodename="OnMouseOver (HTML)" systemname="OnMouseOver (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2790" top="4665" width="100" height="100">
+  <BOUNDS type="Node" left="3045" top="5970" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -136,7 +139,7 @@
   </PIN>
   </NODE>
   <NODE id="16" nodename="OnMouseLeave (HTML)" systemname="OnMouseLeave (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3375" top="5010" width="100" height="100">
+  <BOUNDS type="Node" left="3630" top="6315" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -146,7 +149,7 @@
   </PIN>
   </NODE>
   <NODE id="17" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2925" top="7470" width="100" height="100">
+  <BOUNDS type="Node" left="3180" top="8775" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -156,7 +159,7 @@
   </PIN>
   </NODE>
   <NODE id="18" nodename="OR (Boolean)" systemname="OR (Boolean)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2940" top="6900" width="100" height="100">
+  <BOUNDS type="Node" left="3195" top="8205" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -170,7 +173,7 @@
   </PIN>
   </NODE>
   <NODE id="19" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1485" top="6960" width="100" height="100">
+  <BOUNDS type="Node" left="1740" top="8265" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -182,7 +185,7 @@
   </PIN>
   </NODE>
   <NODE id="20" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="2070" top="8220" width="100" height="100">
+  <BOUNDS type="Node" left="2325" top="9525" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -194,7 +197,7 @@
   </PIN>
   </NODE>
   <NODE id="21" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5895" top="3465" width="100" height="100">
+  <BOUNDS type="Node" left="5880" top="4695" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -206,7 +209,7 @@
   </PIN>
   </NODE>
   <NODE id="22" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6240" top="3930" width="100" height="100">
+  <BOUNDS type="Node" left="5850" top="5175" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -218,7 +221,7 @@
   </PIN>
   </NODE>
   <NODE id="23" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8295" top="3120" width="100" height="100">
+  <BOUNDS type="Node" left="8280" top="4350" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -230,7 +233,7 @@
   </PIN>
   </NODE>
   <NODE id="24" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8640" top="3585" width="100" height="100">
+  <BOUNDS type="Node" left="8625" top="4815" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -242,7 +245,7 @@
   </PIN>
   </NODE>
   <NODE id="25" nodename="OnMouseOver (HTML)" systemname="OnMouseOver (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5610" top="5025" width="100" height="100">
+  <BOUNDS type="Node" left="5865" top="6330" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -252,7 +255,7 @@
   </PIN>
   </NODE>
   <NODE id="26" nodename="OnMouseLeave (HTML)" systemname="OnMouseLeave (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6225" top="5475" width="100" height="100">
+  <BOUNDS type="Node" left="6480" top="6780" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -262,7 +265,7 @@
   </PIN>
   </NODE>
   <NODE id="27" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5865" top="6780" width="100" height="100">
+  <BOUNDS type="Node" left="6120" top="8085" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -272,7 +275,7 @@
   </PIN>
   </NODE>
   <NODE id="28" nodename="Image (HTML)" systemname="Image (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5850" top="4500" width="100" height="100">
+  <BOUNDS type="Node" left="6105" top="5805" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -290,7 +293,7 @@
   </PIN>
   </NODE>
   <NODE id="29" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="6420" top="9120" width="0" height="0">
+  <BOUNDS type="Box" left="6675" top="10425" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -300,7 +303,7 @@
   </PIN>
   </NODE>
   <NODE id="30" nodename="Image (HTML)" systemname="Image (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8190" top="4140" width="100" height="100">
+  <BOUNDS type="Node" left="8445" top="5445" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -318,7 +321,7 @@
   </PIN>
   </NODE>
   <NODE id="31" nodename="OnMouseOver (HTML)" systemname="OnMouseOver (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8520" top="4665" width="100" height="100">
+  <BOUNDS type="Node" left="8775" top="5970" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -328,7 +331,7 @@
   </PIN>
   </NODE>
   <NODE id="32" nodename="OnMouseLeave (HTML)" systemname="OnMouseLeave (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8850" top="5220" width="100" height="100">
+  <BOUNDS type="Node" left="9105" top="6525" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Element" visible="1">
   </PIN>
@@ -338,7 +341,7 @@
   </PIN>
   </NODE>
   <NODE id="33" nodename="Toggle (Animation)" systemname="Toggle (Animation)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8280" top="6285" width="100" height="100">
+  <BOUNDS type="Node" left="8535" top="7590" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input" visible="1">
   </PIN>
@@ -348,7 +351,7 @@
   </PIN>
   </NODE>
   <NODE id="34" nodename="OR (Boolean)" systemname="OR (Boolean)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8295" top="5715" width="100" height="100">
+  <BOUNDS type="Node" left="8550" top="7020" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -360,7 +363,7 @@
   </PIN>
   </NODE>
   <NODE id="35" nodename="Multiply (Value)" systemname="Multiply (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8385" top="6825" width="100" height="100">
+  <BOUNDS type="Node" left="8640" top="8130" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -372,7 +375,7 @@
   </PIN>
   </NODE>
   <NODE id="36" nodename="Add (Value)" systemname="Add (Value)" componentmode="Hidden">
-  <BOUNDS type="Node" left="7035" top="7170" width="100" height="100">
+  <BOUNDS type="Node" left="7290" top="8475" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -384,7 +387,7 @@
   </PIN>
   </NODE>
   <NODE id="37" nodename="OR (Boolean)" systemname="OR (Boolean)" componentmode="Hidden">
-  <BOUNDS type="Node" left="5730" top="6150" width="100" height="100">
+  <BOUNDS type="Node" left="5985" top="7455" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Input 1" visible="1">
   </PIN>
@@ -396,7 +399,7 @@
   </PIN>
   </NODE>
   <NODE id="38" nodename="Integrate (Differential)" systemname="Integrate (Differential)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1695" top="9000" width="100" height="100">
+  <BOUNDS type="Node" left="1950" top="10305" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Position In" visible="1">
   </PIN>
@@ -406,7 +409,7 @@
   </PIN>
   </NODE>
   <NODE id="39" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
-  <BOUNDS type="Box" left="1755" top="9675" width="0" height="0">
+  <BOUNDS type="Box" left="2010" top="10980" width="0" height="0">
   </BOUNDS>
   <PIN pinname="Y Input Value" visible="1">
   </PIN>
@@ -416,7 +419,7 @@
   </PIN>
   </NODE>
   <NODE id="40" nodename="Integrate (Differential)" systemname="Integrate (Differential)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6555" top="8310" width="100" height="100">
+  <BOUNDS type="Node" left="6810" top="9615" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Position In" visible="1">
   </PIN>
@@ -438,7 +441,7 @@
   </PIN>
   </NODE>
   <NODE id="42" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="840" top="2595" width="100" height="100">
+  <BOUNDS type="Node" left="825" top="3825" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -450,7 +453,7 @@
   </PIN>
   </NODE>
   <NODE id="43" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="1185" top="2055" width="100" height="100">
+  <BOUNDS type="Node" left="1170" top="3285" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -462,7 +465,7 @@
   </PIN>
   </NODE>
   <NODE id="44" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3285" top="2640" width="100" height="100">
+  <BOUNDS type="Node" left="3270" top="3870" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -474,7 +477,7 @@
   </PIN>
   </NODE>
   <NODE id="45" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="3630" top="2100" width="100" height="100">
+  <BOUNDS type="Node" left="3615" top="3330" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -486,7 +489,7 @@
   </PIN>
   </NODE>
   <NODE id="46" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6015" top="2895" width="100" height="100">
+  <BOUNDS type="Node" left="6000" top="4125" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -498,7 +501,7 @@
   </PIN>
   </NODE>
   <NODE id="47" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="6360" top="2355" width="100" height="100">
+  <BOUNDS type="Node" left="6345" top="3585" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -510,7 +513,7 @@
   </PIN>
   </NODE>
   <NODE id="48" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8280" top="2655" width="100" height="100">
+  <BOUNDS type="Node" left="8265" top="3885" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
@@ -534,13 +537,135 @@
   </PIN>
   </NODE>
   <NODE id="51" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
-  <BOUNDS type="Node" left="8235" top="2160" width="100" height="100">
+  <BOUNDS type="Node" left="8220" top="3390" width="100" height="100">
   </BOUNDS>
   <PIN pinname="Style In" visible="1">
   </PIN>
   <PIN pinname="Property Name" visible="1" values="|bottom|">
   </PIN>
   <PIN pinname="Property Value" visible="1" values="|0%|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="58" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10140" top="3135" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|width|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|25%|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="59" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10095" top="3690" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|height|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|10%|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="61" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10125" top="2670" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|right|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|-9%|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="62" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10080" top="2175" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|bottom|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1" values="|0%|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="64" nodename="Checkbox (HTML)" systemname="Checkbox (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="10740" top="4155" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Parent" visible="1">
+  </PIN>
+  <PIN pinname="Text" visible="1" values="||">
+  </PIN>
+  <PIN pinname="name" visible="1" values="||">
+  </PIN>
+  <PIN pinname="value" visible="1">
+  </PIN>
+  <PIN pinname="Enabled" visible="1">
+  </PIN>
+  <PIN pinname="Attribute Names" visible="0" values="||">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="65" nodename="Style (HTML)" systemname="Style (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="4395" top="2340" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Style In" visible="1">
+  </PIN>
+  <PIN pinname="Property Name" visible="1" values="|display|">
+  </PIN>
+  <PIN pinname="Property Value" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="66" nodename="Switch (String Input)" systemname="Switch (String Input)" componentmode="Hidden">
+  <BOUNDS type="Node" left="5295" top="1785" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Switch" visible="1">
+  </PIN>
+  <PIN pinname="Input 1" visible="1" values="|none|">
+  </PIN>
+  <PIN pinname="Input 2" visible="1" values="|block|">
+  </PIN>
+  <PIN pinname="Input Count" visible="0" values="|2|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="67" nodename="GetValue (HTML)" systemname="GetValue (HTML)" componentmode="Hidden">
+  <BOUNDS type="Node" left="11415" top="4965" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Element" visible="1">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="68" nodename="IOBox (Value Advanced)" systemname="IOBox (Value Advanced)" componentmode="InABox">
+  <BOUNDS type="Box" left="12870" top="6990" width="0" height="0">
+  </BOUNDS>
+  <PIN pinname="Y Input Value" visible="1">
+  </PIN>
+  <PIN pinname="Rows" visible="0" values="|1|">
+  </PIN>
+  <PIN pinname="Descriptive Name" visible="0" values="||">
+  </PIN>
+  </NODE>
+  <NODE id="70" nodename="AsValue (String)" systemname="AsValue (String)" componentmode="Hidden">
+  <BOUNDS type="Node" left="12030" top="6075" width="100" height="100">
+  </BOUNDS>
+  <PIN pinname="Input" visible="1">
+  </PIN>
+  <PIN pinname="Default" visible="1">
   </PIN>
   <PIN pinname="Descriptive Name" visible="0" values="||">
   </PIN>
@@ -635,18 +760,40 @@
   </LINK>
   <LINK srcnodeid="43" srcpinname="Style Out" dstnodeid="42" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="41" srcpinname="Style Out" dstnodeid="43" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="45" srcpinname="Style Out" dstnodeid="44" dstpinname="Style In">
-  </LINK>
-  <LINK srcnodeid="41" srcpinname="Style Out" dstnodeid="45" dstpinname="Style In">
   </LINK>
   <LINK srcnodeid="47" srcpinname="Style Out" dstnodeid="46" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="41" srcpinname="Style Out" dstnodeid="47" dstpinname="Style In">
-  </LINK>
   <LINK srcnodeid="51" srcpinname="Style Out" dstnodeid="48" dstpinname="Style In">
   </LINK>
-  <LINK srcnodeid="41" srcpinname="Style Out" dstnodeid="51" dstpinname="Style In">
+  <LINK srcnodeid="61" srcpinname="Style Out" dstnodeid="58" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="58" srcpinname="Style Out" dstnodeid="59" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="62" srcpinname="Style Out" dstnodeid="61" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Style Out" dstnodeid="62" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="59" srcpinname="Style Out" dstnodeid="64" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="66" srcpinname="Output" dstnodeid="65" dstpinname="Property Value">
+  </LINK>
+  <LINK srcnodeid="41" srcpinname="Style Out" dstnodeid="65" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="65" srcpinname="Style Out" dstnodeid="43" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="65" srcpinname="Style Out" dstnodeid="45" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="65" srcpinname="Style Out" dstnodeid="47" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="65" srcpinname="Style Out" dstnodeid="51" dstpinname="Style In">
+  </LINK>
+  <LINK srcnodeid="64" srcpinname="Layers Out" dstnodeid="67" dstpinname="Element">
+  </LINK>
+  <LINK srcnodeid="67" srcpinname="Output" dstnodeid="70" dstpinname="Input">
+  </LINK>
+  <LINK srcnodeid="70" srcpinname="Output" dstnodeid="68" dstpinname="Y Input Value">
+  </LINK>
+  <LINK srcnodeid="68" srcpinname="Y Output Value" dstnodeid="66" dstpinname="Switch">
   </LINK>
   </PATCH>
